@@ -27,7 +27,7 @@ class PinsController < ApplicationController
 
   def update
     if @pin.update(pin_params)
-      redirect_to @pin, notice: 'Pin was successfully updated.'
+      redirect_to @pin, notice: 'Pin was successfully updated'
     else
       render action: 'edit'
     end
@@ -53,4 +53,5 @@ class PinsController < ApplicationController
     def pin_params
       params.require(:pin).permit(:description, :image)
     end
+
 end
