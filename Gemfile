@@ -36,7 +36,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass'
-
+gem 'will_paginate', '~> 3.0.5'
+gem 'will_paginate-bootstrap'
 gem 'masonry-rails'
 
 # Use ActiveModel has_secure_password
